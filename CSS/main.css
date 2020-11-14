@@ -1,0 +1,168 @@
+
+
+sss.namelogo2 {
+  
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.header{
+  width: 100%;
+  height: 170px;
+  background:whitesmoke;
+  position: relative;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.menuBar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+}
+.menuBar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.menuBar ul li{
+  list-style: none;
+  margin-left: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.menuBar ul li a::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 18px;
+  transform: translateX(-100%);
+  transition: 0.3s ease-in-out;
+}
+.menuBar ul li a:hover::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 18px;
+  transform: translateX(0);
+  
+}
+
+.menuBar ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+.logo{
+  width: 325px;
+
+ text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+.menuBar ul h5{
+  margin-left: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.namelogo2{
+  position: absolute;
+  bottom: -20px;
+  right: -6px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  transform: rotate(-15deg);
+  text-decoration: underline;
+}
+.namelogo{
+  font-family: 'Roboto', sans-serif;
+}
+.menu2{
+  position: fixed;
+  width: 200px;
+  height: 250px;
+  background: red;
+  top: 60px;
+  left: 350px;
+  display: none;
+  z-index: 2;
+}
+
+.menu2 ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.menu2 ul li{
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+}
+.menuBar ul li:hover .menu2{
+  display: block;
+}
+.header-icon i {
+  color: black;
+  margin-left: 5px;
+}
+.menuBar p {
+  font-size: 80%;
+  padding-right: 5px;
+}
+.main-img img{
+  width: 100%;
+}
+.header-icon i {
+  transition: 0.5s ease-in-out;
+}
+.header-icon i:hover {
+  color: grey;
+  transform: translateY(-10px);
+}
+/* .menu2{
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  z-index: 1;
+  left: -88px;
+ display: none;
+
+}
+.menuBar ul li:hover .menu2{
+  display: block;
+}
+.menu2 ul{
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  line-height: 52px;
+}
+.menu2 ul li{
+  border: none;
+  background: red;
+  margin-bottom: 1px;
+  text-align: center;
+} */
