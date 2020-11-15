@@ -7,7 +7,7 @@ font-family: 'PT Serif', serif; */
  } 
  .seasonal p {
      font-size: 150%;
-     font-family: 'PT Serif', serif; 
+     font-family: 'EB Garamond', serif;
  }
   .slider {
     width: 100%;
@@ -99,9 +99,12 @@ font-family: 'PT Serif', serif; */
     background: #000;
   }
 /* The end slider------------------------------------------------------- */
+.main-menu-list {
+  margin-bottom: 100px;
+}
 .main-menu-list p {
     text-align: center;
-    font-family: 'PT Serif', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 150%;
     margin-top: 90px;
     margin-bottom: 20px;
@@ -110,15 +113,149 @@ font-family: 'PT Serif', serif; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: auto 40px;
 }
 .menu-list li {
     list-style: none;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .menu-list a {
     text-decoration: none;
 }
-  
-
-  
+.menu-list img {
+  transition: 0.5s ease-in-out;
+}
+.menu-list img:hover {
+    opacity: 0.5;
+} 
+.main-coffee {
+  background-color: #f1f1f1;
+}
+.main-coffee-tt {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'EB Garamond', serif;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+.main-coffee-bg {
+  width: 100%;
+}
+.coffee-beans-tea ul {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0 100px;
+  justify-content: space-around;
+}
+.coffee-beans-tea-tt {
+  font-size: 120%;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  margin: 90px 0 40px 0;
+}
+.coffee-beans-tea li {
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+  margin: 0px;
+  width: 45%;
+  line-height: 25px;
+  border-top: 0.8px solid #000;
+  border-bottom: 0.8px solid #000;
+}
+.cf-text {
+  position: relative;
+}
+.cf-text div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 300px;
+  transform: translateY(-50%);
+}
+.jp-text {
+  font-size: 88%;
+}
+.eng-text {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.beans-tea-price{
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+  /* Beans and Tea End-------------------------------------------------------- */
+.products {
+  padding: 70px 100px;
+} 
+.products ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+.item {
+  border-top: 0.8px solid #000;
+  border-bottom: 0.8px solid #000;
+  list-style: none;
+  padding: 25px 32px 30px 20px;
+  width: 45%;
+}
+.item div {
+  display: flex;
+}
+.item div span {
+  margin-right: 40px;
+}
+.item img {
+  height: 100px;
+}
+.it-des {
+  margin-top: 10px;
+}
+.item-price {
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+}
+/* --Products end --------------------------------------------- */
+.aller-nutri-info {
+  background-color: #f8f8f8;
+}
+.aller-nutri-info-head {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.aller-nutri-title {
+  text-align: center;
+  height: 60px;
+  margin: auto 100px;
+  border-bottom: 1px solid #000;
+}
+.aller-nutri-title p {
+  line-height: 60px;
+}
+.aller-nutri-des {
+  padding-top: 30px;
+  margin: auto 100px;
+  line-height: 24px;
+}
+.aller-nutri-des li {
+  list-style-type: circle;
+  word-spacing: 2px;
+}
+.info-detail {
+  text-align: center;
+}
+.info-detail p {
+  padding: 30px;
+}
+.info-detail img {
+  border: 1px solid #000;
+  padding-left: 10px;
+}
+#nutri {
+  margin-top: 50px;
+}
