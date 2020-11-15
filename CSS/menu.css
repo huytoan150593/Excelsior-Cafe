@@ -259,3 +259,49 @@ font-family: 'PT Serif', serif; */
 #nutri {
   margin-top: 50px;
 }
+/* main-body end ----------------------------------------------------------------------------- */
+.pagetop-logo {
+  text-align: center;
+  height: 300px;
+  position: relative;
+  background-color: #f8f8f8;
+}
+.pagetop-logo a {
+  position: absolute;
+  bottom: 80px;
+  transform: translateX(-50%);
+}
+.pagetop-logo img {
+  height: 13px;
+}
+.footer-logo {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.footer-logo a {
+  text-decoration: none;
+    border: 0.5px solid black;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+.footer-logo a:hover {
+  background-color: #000;
+  color: white;
+}
+.footer-menu {
+  height: 120px;
+  padding-top: 50px;
+  background-color: #f8f8f8;
+}
+.footer-menu ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-menu li {
+  list-style: none;
+  margin: 0px 20px;
+}
+.footer-menu a {
+  text-decoration: none;
+}
