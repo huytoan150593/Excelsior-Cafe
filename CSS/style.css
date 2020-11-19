@@ -80,13 +80,16 @@ header {
     position: relative;
     text-align: center;
     margin-top: 30px;
+    width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.logo2 {
+.logo p {
     position: absolute;
     top: 20px;
-    right: 34%;
+    right: 0;
 }
-.logo2 img {
+.logo p img {
     height: 36px;
 }
 .header-title {
